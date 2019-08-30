@@ -1,0 +1,5 @@
+classes = 1
+train  = /content/learnopencv/YOLOv3-Training-Snowman-Detector/snowman_train.txt
+valid  = /content/learnopencv/YOLOv3-Training-Snowman-Detector/snowman_test.txt
+names = /content/learnopencv/YOLOv3-Training-Snowman-Detector/classes.names
+backup = /content/learnopencv/YOLOv3-Training-Snowman-Detector/weights/
