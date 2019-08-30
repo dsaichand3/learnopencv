@@ -32,7 +32,7 @@ with open(classesFile, 'rt') as f:
 # Give the configuration and weight files for the model and load the network using them.
 
 modelConfiguration = "learnopencv/YOLOv3-Training-Snowman-Detector/darknet-yolov3.cfg";
-modelWeights = "learnopencv/YOLOv3-Training-Snowman-Detector/darknet53.conv.74";
+modelWeights = "/content/darknet53.conv.74";
 
 net = cv.dnn.readNetFromDarknet(modelConfiguration, modelWeights)
 net.setPreferableBackend(cv.dnn.DNN_BACKEND_OPENCV)
